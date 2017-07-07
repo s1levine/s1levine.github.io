@@ -1,5 +1,5 @@
 /* Resets */
-html, body, ul, h1 , h3 { margin: 0; padding: 0; }
+html, body, ul, h1 , h3, p { margin: 0; padding: 0; }
 
 /* For debugging layout
 border: 2px solid red;
@@ -26,9 +26,11 @@ body {
     font-size: 8rem;
 }
 
-.title h3 {
+.title h3{
     font-size: 2rem;
+	/*font-style: italic;*/
 	letter-spacing: 20px;
+	padding-left: 20px;
 }
 
 .title:hover {
@@ -47,7 +49,7 @@ nav {
 
 .menu {
     display: none;
-	margin-top: 10px; /*Avoid overlap with title*/
+	margin-top: 8px; /*Avoid overlap with title*/
 }
 
 .menu a {

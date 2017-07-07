@@ -1,6 +1,7 @@
 function main(){
   $('.title').on('click', function(){
     $('.menu').fadeToggle(400);
+	//$('#subtitle').toggle(); //Replaces subtitle with menu
   });
   
   //Mute Audio When Opening Video/Tour
