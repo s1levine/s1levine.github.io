@@ -68,3 +68,7 @@ nav {
     display: none;
 	text-align: center;
 }
+
+#credits h3 {
+    padding-top: 10px;
+}
