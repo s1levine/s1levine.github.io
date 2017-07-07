@@ -1,5 +1,5 @@
 /* Resets */
-html, body, ul, h1 { margin: 0; padding: 0; }
+html, body, ul, h1 , h3 { margin: 0; padding: 0; }
 
 /* For debugging layout
 border: 2px solid red;
@@ -19,8 +19,16 @@ body {
 
 .title {
 	font-family: Georgia, Palatino, Garamond, Serif;
-	font-size: 8rem;
 	color: white;
+}
+
+.title h1 {
+    font-size: 8rem;
+}
+
+.title h3 {
+    font-size: 2rem;
+	letter-spacing: 20px;
 }
 
 .title:hover {
