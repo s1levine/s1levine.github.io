@@ -1,0 +1,60 @@
+/* Resets */
+html, body, ul, h1 { margin: 0; padding: 0; }
+
+/* For debugging layout
+border: 2px solid red;
+*/
+html {
+	height: 100%;
+}
+
+body {
+    text-align: center;
+	background-color: black;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.title {
+	font-family: Georgia, Palatino, Garamond, Serif;
+	font-size: 8rem;
+	color: white;
+}
+
+.title:hover {
+    color: lightgrey;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/*.row {
+    display: flex;
+	align-items: center;
+}*/
+
+.menu {
+    display: none;
+	margin-top: 10px; /*Avoid overlap with title*/
+}
+
+.menu a {
+    text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', Helvetica, Verdana, Sans-serif;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.menu a:hover {
+    color: lightgrey;
+}
+
+#credits {
+    display: none;
+	text-align: center;
+}
