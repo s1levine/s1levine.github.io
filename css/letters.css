@@ -1,0 +1,68 @@
+/* Resets */
+html, body, ul, h1 , h3, p { margin: 0; padding: 0; }
+
+/* For debugging layout
+border: 2px solid red;
+*/
+html {
+	height: 100%;
+}
+
+body {
+    text-align: center;
+	background-color: black;
+	height: 100%;
+	/*display: flex;
+	justify-content: center;
+	align-items: center;*/
+}
+
+.title {
+	font-family: Georgia, Palatino, Garamond, Serif;
+	color: white;
+}
+
+.title h1 {
+    font-size: 8rem;
+}
+
+.title h3 {
+    font-size: 2rem;
+	/*font-style: italic;*/
+	letter-spacing: 20px;
+	padding-left: 20px;
+}
+
+.title a {
+    text-decoration: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+/*.row {
+    display: flex;
+	align-items: center;
+}*/
+
+.menu {
+    display: none;
+	margin-top: 8px; /*Avoid overlap with title*/
+}
+
+.menu a {
+    text-decoration: none;
+	color: white;
+	font-family: 'Open Sans', Helvetica, Verdana, Sans-serif;
+	padding: 0 20px;
+	margin: 0;
+}
+
+.menu a:hover {
+    color: lightgrey;
+}
+
+img {
+    padding: 10px;
+}
