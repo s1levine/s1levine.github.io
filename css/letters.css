@@ -63,6 +63,89 @@ body {
     color: lightgrey;
 }
 
-img {
+/*img {
     padding: 10px;
+}*/
+
+.letter {
+    margin: 10px;
+    width: 240px;
+	height: 155px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.letter h3 {
+	font-size: 4rem;
+	font-weight: 700;
+}
+
+figure a, figure a:visited, figure a:active {
+    text-decoration: none;
+	color: black;
+	font-family: 'Open Sans', Helvetica, Verdana, Sans-serif;
+	
+}
+
+figure a:hover {
+    text-decoration: none;
+	font-style: italic;
+	color: black;	
+}
+
+.tina {
+    background: url('../img/tinaletter-thumb.jpg');
+}
+
+.samantha {
+    background: url('../img/samantha-thumb.jpg');
+}
+
+.michele {
+    background: url('../img/michele1-thumb.png');
+}
+
+.norma {
+    background: url('../img/norma-thumb.jpg');
+}
+
+.fuad {
+    background: url('../img/fuad-thumb.jpg');
+}
+
+.heskel {
+    background: url('../img/heskel-thumb.jpg');
+}
+
+.suad {
+    background: url('../img/suad-thumb.jpg');
+}
+
+.claire {
+    background: url('../img/claire-thumb.jpg');
+}
+
+.ian {
+    background: url('../img/ian-thumb.jpg');
+}
+
+.yvonne {
+    background: url('../img/yvonne-thumb.jpg');
+}
+
+.daniel {
+    background: url('../img/daniel-thumb.jpg');
+}
+
+.yvette {
+    background: url('../img/yvette-thumb.jpg');
+}
+
+.samir {
+    background: url('../img/samir-thumb.jpg');
+}
+
+.ken {
+    background: url('../img/kenseulogy-thumb.jpg');
 }
