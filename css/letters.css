@@ -77,75 +77,82 @@ body {
 }
 
 .letter h3 {
-	font-size: 4rem;
+	font-size: 3.4rem;
 	font-weight: 700;
+	/*display: none;*/
 }
 
 figure a, figure a:visited, figure a:active {
     text-decoration: none;
 	color: black;
-	font-family: 'Open Sans', Helvetica, Verdana, Sans-serif;
+	font-family: Georgia, Palatino, Garamond, Serif;
 	
 }
 
 figure a:hover {
     text-decoration: none;
 	font-style: italic;
-	color: black;	
+	color: black;
 }
 
-.tina {
+/*For making names appear on hover
+figure a:hover .letter h3 {
+    display: initial;
+}*/
+
+/*** BACKGROUND IMAGE LINKS ***/
+#tina {
     background: url('../img/tinaletter-thumb.jpg');
 }
 
-.samantha {
+#samantha {
     background: url('../img/samantha-thumb.jpg');
 }
 
-.michele {
+#michele {
     background: url('../img/michele1-thumb.png');
 }
 
-.norma {
+#norma {
     background: url('../img/norma-thumb.jpg');
 }
 
-.fuad {
+#fuad {
     background: url('../img/fuad-thumb.jpg');
 }
 
-.heskel {
+#heskel {
     background: url('../img/heskel-thumb.jpg');
 }
 
-.suad {
+#suad {
     background: url('../img/suad-thumb.jpg');
 }
 
-.claire {
+#claire {
     background: url('../img/claire-thumb.jpg');
 }
 
-.ian {
+#ian {
     background: url('../img/ian-thumb.jpg');
 }
 
-.yvonne {
+#yvonne {
     background: url('../img/yvonne-thumb.jpg');
 }
 
-.daniel {
+#daniel {
     background: url('../img/daniel-thumb.jpg');
 }
 
-.yvette {
+#yvette {
     background: url('../img/yvette-thumb.jpg');
 }
 
-.samir {
+#samir {
     background: url('../img/samir-thumb.jpg');
 }
 
-.ken {
+#ken {
     background: url('../img/kenseulogy-thumb.jpg');
 }
