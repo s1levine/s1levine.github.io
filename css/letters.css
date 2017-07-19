@@ -63,10 +63,6 @@ body {
     color: lightgrey;
 }
 
-/*img {
-    padding: 10px;
-}*/
-
 .letter {
     margin: 10px;
     width: 240px;
@@ -102,7 +98,7 @@ figure a:hover .letter h3 {
 
 /*** BACKGROUND IMAGE LINKS ***/
 #tina {
-    background: url('../img/tinaletter-thumb.jpg');
+    background: url('../img/tina-thumb.jpg');
 }
 
 #samantha {
@@ -110,7 +106,7 @@ figure a:hover .letter h3 {
 }
 
 #michele {
-    background: url('../img/michele1-thumb.png');
+    background: url('../img/michele-thumb.png');
 }
 
 #norma {
@@ -126,11 +122,11 @@ figure a:hover .letter h3 {
 }
 
 #suad {
-    background: url('../img/suad-thumb.jpg');
+    background: url('../img/suad-thumb.png');
 }
 
 #claire {
-    background: url('../img/claire-thumb.jpg');
+    background: url('../img/claire-thumb.png');
 }
 
 #ian {
@@ -138,7 +134,7 @@ figure a:hover .letter h3 {
 }
 
 #yvonne {
-    background: url('../img/yvonne-thumb.jpg');
+    background: url('../img/yvonne-thumb.png');
 }
 
 #daniel {
@@ -150,9 +146,9 @@ figure a:hover .letter h3 {
 }
 
 #samir {
-    background: url('../img/samir-thumb.jpg');
+    background: url('../img/samir-thumb.png');
 }
 
 #ken {
-    background: url('../img/kenseulogy-thumb.jpg');
+    background: url('../img/ken-thumb.jpg');
 }
