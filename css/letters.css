@@ -73,9 +73,10 @@ body {
 }
 
 .letter h3 {
-	font-size: 3.4rem;
+	font-size: 3.2rem;
 	font-weight: 700;
-	/*display: none;*/
+	text-shadow: -2px 2px 2px white;
+	display: none;
 }
 
 figure a, figure a:visited, figure a:active {
@@ -87,14 +88,13 @@ figure a, figure a:visited, figure a:active {
 
 figure a:hover {
     text-decoration: none;
-	font-style: italic;
+	/*font-style: italic;*/
 	color: black;
 }
 
-/*For making names appear on hover
 figure a:hover .letter h3 {
     display: initial;
-}*/
+}
 
 /*** BACKGROUND IMAGE LINKS ***/
 #tina {
