@@ -73,6 +73,16 @@ nav {
     padding-top: 10px;
 }
 
+#credits img {
+    margin: 5px;
+}
+
+#dedication {
+    font-size: 1.9rem;
+    font-weight: 500;
+	margin-top: 10px;
+}
+
 .tooltiptext {
     visibility: hidden;
     width: 200px;
