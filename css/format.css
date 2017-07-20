@@ -35,6 +35,7 @@ body {
 
 .title:hover {
     color: lightgrey;
+	cursor: pointer;
 }
 
 nav {
