@@ -25,9 +25,19 @@ function onYouTubePlayerAPIReady() {
 function main(){
   //onYouTubePlayerAPIReady();
 
+  var open = false;
+  
   $('.title').on('click', function(){
     $('.menu').fadeToggle(400);
-	//$('#subtitle').toggle(); //Replaces subtitle with menu
+	open = !open;
+	if (open) {
+	  $('body').css('background-image','url("../img/open.jpg")');
+	}
+	else {
+	  $('body').css('background-image','url("../img/close.jpg")');
+	}
+	//console.log($('body').css('background-image'));
+	
   });
   
   //Mute Audio When Opening Video/Tour
