@@ -78,6 +78,10 @@ nav {
 	outline-style: none;
 }
 
+.menu a:focus {
+    outline-style: none;
+}
+
 .menu a:hover {
     color: lightgrey;
 }
