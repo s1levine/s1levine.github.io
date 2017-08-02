@@ -31,10 +31,10 @@ function main(){
     $('.menu').fadeToggle(400);
 	open = !open;
 	if (open) {
-	  $('.bg-image').css('background-image','url("../img/open.JPG")');
+	  $('.bg-image').css('background-image','url("/img/open.JPG")');
 	}
 	else {
-	  $('.bg-image').css('background-image','url("../img/close.JPG")');
+	  $('.bg-image').css('background-image','url("/img/close.JPG")');
 	}
 	
   });
