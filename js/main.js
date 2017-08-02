@@ -31,12 +31,11 @@ function main(){
     $('.menu').fadeToggle(400);
 	open = !open;
 	if (open) {
-	  $('body').css('background-image','url("../img/open.jpg")');
+	  $('.bg-image').css('background-image','url("../img/open.JPG")');
 	}
 	else {
-	  $('body').css('background-image','url("../img/close.jpg")');
+	  $('.bg-image').css('background-image','url("../img/close.JPG")');
 	}
-	//console.log($('body').css('background-image'));
 	
   });
   

@@ -15,7 +15,18 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url('../img/close.jpg');
+}
+
+.bg-image {
+    display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	opacity: 0.4;
+    background-image: url('../img/close.JPG');
 	background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
