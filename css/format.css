@@ -75,6 +75,7 @@ nav {
 	font-family: 'Open Sans', Helvetica, Verdana, Sans-serif;
 	padding: 0 20px;
 	margin: 0;
+	outline-style: none;
 }
 
 .menu a:hover {
